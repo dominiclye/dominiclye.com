@@ -21,7 +21,7 @@ const Hero = () => {
         >
           <h1 className='text-8xl'>🫖</h1>
           <div className="text-3xl md:text-7xl font-bold dark:text-white text-center">
-            Hello, I'm Dominic.
+            Hello, I&apos;m Dominic.
           </div>
           <div className="font-extralight text-base md:text-4xl dark:text-neutral-200 py-4 overflow-hidden pl-10">
             <span>an avid</span>
