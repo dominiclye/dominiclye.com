@@ -26,7 +26,7 @@ const Hero = () => {
           <div className="font-extralight text-base md:text-4xl dark:text-neutral-200 py-4 overflow-hidden pl-10">
             <span>an avid</span>
             <div className="relative inline-block min-w-[11ch]">
-              <FlipWords words={['Snowboarder', 'Developer', 'Student']} />
+              <FlipWords words={['Developer', 'Student', 'Snowboarder']}/>
             </div>
           </div>
         </motion.div>

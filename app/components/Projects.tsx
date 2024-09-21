@@ -33,9 +33,10 @@ const Projects = () => {
         {/* Radial gradient for the container to give a faded look */}
           <div className="absolute pointer-events-none inset-0 flex bg-zinc-900 [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black_70%)]" />
           <div className='flex flex-col justify-center items-center'>
-            <p className="text-4xl sm:text-7xl font-bold relative z-20 bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-500 py-8">
+            <p className="text-4xl sm:text-7xl font-bold relative z-20 bg-clip-text text-neutral-200 bg-gradient-to-b">
               Recent Projects
             </p>
+            <h2 className='py-5 text-2xl text-white text-wrap w-1/2 align-middle'>All sites are deployed but not necessarily open source. If you have any questions, contact me.</h2>
               <div className='flex flex-wrap gap-5'>
                 {cards.map((project) => (
                   <div className="max-w-xs w-full group/card" key={project.title} onClick={() => window.open(project.url, "_blank")}>
