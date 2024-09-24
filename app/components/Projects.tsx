@@ -30,14 +30,13 @@ const Projects = () => {
       <h1 className='absolute text-9xl px-[300px] py-[10px] z-10'>🏂</h1>
       <div className='bg-zinc-900 flex flex-col items-center justify-center min-h-screen'>
         <div className="h-[80vh] w-[80vw]  dark:bg-grid-white/[0.2] bg-grid-black/[0.2] relative flex justify-center">
-        {/* Radial gradient for the container to give a faded look */}
           <div className="absolute pointer-events-none inset-0 flex bg-zinc-900 [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black_70%)]" />
-          <div className='flex flex-col justify-center items-center'>
-            <p className="text-4xl sm:text-7xl font-bold relative z-20 bg-clip-text text-neutral-200 bg-gradient-to-b">
+          <div className='flex flex-col justify-center items-center w-full'>
+            <p className="text-3xl lg:text-6xl font-bold relative z-20 bg-clip-text text-neutral-200 bg-grnpmadient-to-b">
               Recent Projects
             </p>
-            <h2 className='py-5 text-2xl text-white text-wrap w-1/2 align-middle'>All sites are deployed but not necessarily open source. If you have any questions, contact me.</h2>
-              <div className='flex flex-wrap gap-5'>
+            <h2 className='py-5 lg:text-2xl text-white w-full align-middle text-lg flex flex-col= items-center justify-center z-50'>All sites are deployed but not necessarily open source. If you have any questions, contact me.</h2>
+              <div className='flex flex-wrap items-center justify-center gap-5'>
                 {cards.map((project) => (
                   <div className="max-w-xs w-full group/card" key={project.title} onClick={() => window.open(project.url, "_blank")}>
                     <div
