@@ -15,11 +15,11 @@ const Hero = () => {
                 </nav>
                 
                 <div >
-                  <div className="lg:text-[5rem] md:text-[4rem] text-[3rem] [font-family:var(--font-custom)] mb-3">
+                  <div className="lg:text-[5rem] md:text-[4rem] text-[2rem] [font-family:var(--font-custom)] mb-3">
                     <h1 className="m-0 leading-none">Software Engineer</h1>
                     <h1 className="m-0 leading-none">Data Scientist</h1>
                   </div>
-                  <div className="w-full h-[300px] overflow-hidden rounded-4xl">
+                  <div className="w-full h-[200px] md:h-[300px] overflow-hidden rounded-4xl">
                     <Image
                       src="/comm199.png"
                       alt="Drawing of me done by haru <3"
