@@ -49,9 +49,9 @@ export default function AboutMe() {
                 />
             </div>
         </div>
-        <div className='p-5 [font-family:var(--font-custom)] flex flex-col items-center'>
-            <h1 className='text-6xl font-bold'>About Me</h1>
-            <p className='text-center'>Lorem ipsum dolor sit amet consectetur adipisicing elit. At eos nihil perspiciatis nam? Voluptas, quisquam minus? Sed blanditiis, quaerat dolor doloribus ullam at voluptatum fugit, delectus voluptatibus nulla dolorem distinctio!</p>
+        <div className='p-5 [font-family:var(--font-custom)] flex flex-col gap-y-5'>
+            <h1 className='text-6xl'>About Me</h1>
+            <p className=''>Lorem ipsum dolor sit amet consectetur adipisicing elit. At eos nihil perspiciatis nam? Voluptas, quisquam minus? Sed blanditiis, quaerat dolor doloribus ullam at voluptatum fugit, delectus voluptatibus nulla dolorem distinctio!</p>
         </div>
     </div>
   )
